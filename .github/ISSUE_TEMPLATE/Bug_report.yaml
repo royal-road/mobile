@@ -23,7 +23,7 @@ body:
       placeholder: "Tell us what you see!"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: version
     attributes:
       label: Version
@@ -31,14 +31,14 @@ body:
       placeholder: "[e.g. 1.3.355]"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: what-device
     attributes:
       label: What device are you using?
       placeholder: "[e.g. iPhone6]"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: what-OS
     attributes:
       label: What OS are you using?
